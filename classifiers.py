@@ -3,9 +3,7 @@ from matplotlib import pyplot as plt
 from data import APARTMENT_DATA, TESTING_DATA
 from abstractions import *
 
-##################################
-# Phase 2: Nearest Neighbour
-##################################
+
 class NearestNeighbour:
     """A Nearest Neighbour model to predict ratings
      of an apartment."""
@@ -49,8 +47,7 @@ class NearestNeighbour:
 
     def make_predictions(self, apartments: list[ApartmentBuilding]) -> dict[ApartmentBuilding, float]:
         """Return the predicted rating for each apartment in `apartments`.
-        You should return a dictionary wherein the keys are the Apartments in the
-        input list and the values are the predicting rating for each apartment.
+        
 
         Arguments:
         apartments -- A list of apartments to be rated
@@ -68,9 +65,7 @@ class NearestNeighbour:
         return predictions
 
 
-##################################
-# Phase 2: Linear Regression
-##################################
+
 class LinearRegression:
     """A linear regression model to predict ratings
     of an apartment."""
@@ -215,7 +210,7 @@ if __name__ == "__main__":
     import doctest
     doctest.testmod()
 
-    # Uncomment the lines below to train and visualize a regression
+    
 
     c = LinearRegression()
     c.train(APARTMENT_DATA)
