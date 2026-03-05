@@ -1,4 +1,4 @@
-#Appartment Building Evaluation
+## Appartment Building Evaluation
 
 This project predicts apartment **overall ratings** from apartment review data using:
 - **Nearest Neighbour**
