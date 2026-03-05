@@ -47,7 +47,7 @@ What this does:
 
 ## Run Tests
 
-Run the autograder checks:
+Run the testing checks:
 
 ```bash
 python testing.py
