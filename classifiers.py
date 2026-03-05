@@ -149,8 +149,7 @@ class LinearRegression:
         You will have to train the predictor using the apartments in
         the user has reviewed in the past; you will then use that model
         to predict the user's ratings for restaurants they have not
-        reviewed. You should return a dictionary wherein the keys are the Apartments in the
-        input list and the values are the predicting rating for each apartment.
+        reviewed. input list and the values are the predicting rating for each apartment.
 
         Arguments:
         apartments -- A list of apartments to be reviewed
