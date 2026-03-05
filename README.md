@@ -4,7 +4,7 @@ This project predicts apartment **overall ratings** from apartment review data u
 - **Nearest Neighbour**
 - **Linear Regression**
 
-It includes simple abstractions for apartment data, CSV loading utilities, model implementations, and an autograder-style test script.
+It includes simple abstractions for apartment data, CSV loading utilities, model implementations, and a test script.
 
 ## Project Structure
 
