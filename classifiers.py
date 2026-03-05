@@ -22,10 +22,6 @@ class NearestNeighbour:
 
         A nearest neighbour model uses the distance between apartments in the training
         data and the apartment whose rating is to be predicted in order to make predictions.
-        You should search for the apartment in the training data whose COSMETIC score is NEAREST
-        that of the apartment whose overall rating you seek to predict.  Your prediction should be
-        the overall rating of that apartment which is the NEAREST NEIGHBOUR in the training set.
-        If there is more than one NEAREST NEIGHBOUR, you can break ties any way you like.
         >>> apartment = ApartmentBuilding('SOCIAL HOUSING', 1, 1973, [Review('COSMETIC', 21)])
         >>> training = [ApartmentBuilding('SOCIAL HOUSING', 1, 1973, [Review('MODERATE RISK', 6), Review('COSMETIC', 22), Review('OVERALL', 91)]), ApartmentBuilding('SOCIAL HOUSING', 1, 1973, [Review('MODERATE RISK', 6), Review('COSMETIC', 1), Review('OVERALL', 86)]), ApartmentBuilding('SOCIAL HOUSING', 1, 1973, [Review('MODERATE RISK', 6), Review('COSMETIC', 55), Review('OVERALL', 56)])]
         >>> r = NearestNeighbour(training)
