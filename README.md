@@ -1,4 +1,4 @@
-# Assignment 1: Apartment Rating Prediction
+#Appartment Building Evaluation
 
 This project predicts apartment **overall ratings** from apartment review data using:
 - **Nearest Neighbour**
@@ -14,7 +14,7 @@ It includes simple abstractions for apartment data, CSV loading utilities, model
   - `NearestNeighbour`
   - `LinearRegression`
   - `calculate_mse`
-- `autograder.py`: Runs assertion-based tests for abstractions and models.
+- `testing.py`: Runs assertion-based tests for abstractions and models.
 - `datafolder/apartments.csv`: Training dataset.
 - `datafolder/testset.csv`: Testing dataset.
 
@@ -50,7 +50,7 @@ What this does:
 Run the autograder checks:
 
 ```bash
-python autograder.py
+python testing.py
 ```
 
 Run doctests in modules:
